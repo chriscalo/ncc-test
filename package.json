@@ -17,6 +17,5 @@
     "express-start": "^0.2.0",
     "node": "10.x.x",
     "nodemon": "^2.0.2"
-  },
-  "dependencies": {}
+  }
 }
