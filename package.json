@@ -6,8 +6,9 @@
   "author": "chris.calo@gmail.com",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --inspect --exec 'ncc run' index.js",
+    "dev": "nodemon --inspect dist/index.js --watch dist",
     "build": "ncc build index.js",
+    "watch": "yarn run build --watch & yarn run dev",
     "start": "node dist/index.js"
   },
   "engines": {
