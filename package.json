@@ -7,13 +7,18 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --inspect --exec 'ncc run' index.js",
-    "build": "ncc build index.js"
+    "build": "ncc build index.js",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": "10.x.x"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.22.0"
-  },
-  "dependencies": {
+    "@zeit/ncc": "^0.22.0",
     "express": "^4.17.1",
-    "express-start": "^0.2.0"
-  }
+    "express-start": "^0.2.0",
+    "node": "10.x.x",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {}
 }
