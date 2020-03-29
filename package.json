@@ -11,9 +11,6 @@
     "watch": "yarn run build --watch & yarn run dev",
     "start": "node dist/index.js"
   },
-  "engines": {
-    "node": "10.x.x"
-  },
   "devDependencies": {
     "@zeit/ncc": "^0.22.0",
     "express": "^4.17.1",
