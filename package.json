@@ -1,0 +1,19 @@
+{
+  "name": "ncc-test",
+  "version": "0.0.0",
+  "description": "Test of ncc for dev and production builds",
+  "main": "index.js",
+  "author": "chris.calo@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --inspect --exec 'ncc run' index.js",
+    "build": "ncc build index.js"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-start": "^0.2.0"
+  }
+}
