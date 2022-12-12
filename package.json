@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@zeit/ncc": "^0.22.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-start": "^0.2.0",
     "node": "10.x.x",
     "nodemon": "^2.0.2"
